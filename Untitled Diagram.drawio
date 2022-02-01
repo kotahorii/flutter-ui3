@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T05:58:10.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9uG54c64navvPlJ8ONn2" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T06:18:51.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="gew80FTfSvF1bV-PyT_i" version="16.5.2" type="github">
   <diagram id="TAajNdjcjUnQOEhiA-iW" name="Page-1">
     <mxGraphModel dx="1773" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,6 +14,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="170" as="sourcePoint" />
             <mxPoint x="210" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yh7LtCKUbRQa-FskaZRf-9" value="タスク一覧" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yh7LtCKUbRQa-FskaZRf-10" value="・タスクリスト&lt;br&gt;・タスク削除ボタン&lt;br&gt;・タスク編集ボタン&lt;br&gt;・新規追加ボタン" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" parent="yh7LtCKUbRQa-FskaZRf-9">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yh7LtCKUbRQa-FskaZRf-11" value="タスク作成" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yh7LtCKUbRQa-FskaZRf-12" value="・タスクリスト" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" parent="yh7LtCKUbRQa-FskaZRf-11">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yh7LtCKUbRQa-FskaZRf-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="yh7LtCKUbRQa-FskaZRf-10" target="yh7LtCKUbRQa-FskaZRf-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="130" as="sourcePoint" />
+            <mxPoint x="420" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
